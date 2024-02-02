@@ -10,7 +10,7 @@ export default function Home() {
   const [userInput, setUserInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [messages, setMessages] = useState([
-    { role: "assistant", content: "Hi there! How can I help?" },
+    { role: "assistant", content: "Salutacions! Com va el dia avui?" },
   ]);
 
   const messageListRef = useRef<HTMLDivElement>(null);
@@ -104,7 +104,7 @@ useEffect(() => {
       </Head>
       <div className={styles.topnav}>
         <div className={styles.navlogo}>
-          <Link href="/">Chat UI</Link>
+          <Link href="/">Payès Bot</Link>
         </div>
         <div className={styles.navlinks}>
           <a
